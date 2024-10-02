@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Open Auctions</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Open Auctions</h1>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Creator Email</th>
+            <th>Auction End Time</th>
+            <th>Current Price</th>
+            <th>Highest Bidder Email</th>
+            <th>Bid</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="auction-list"></tbody>
+      </table>
+      <button onclick="goBack()">Back</button>
+      <button onclick="logout()">Logout</button>
+
+      <script src="view_auctions.js"></script>
+    </div>
+  </body>
+</html>
